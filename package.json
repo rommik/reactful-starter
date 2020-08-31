@@ -4,6 +4,7 @@
   "description": "A Starter kit based on https://jscomplete.com/learn/1rd-reactful by Samer Buna",
   "main": "index.js",
   "scripts": {
+    "dev": "concurrently --kill-others \"npm run dev-server\" \"npm run dev-bundle\"",
     "test": "jest",
     "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
     "dev-bundle": "webpack -w -d"
@@ -34,6 +35,7 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.0",
+    "concurrently": "^5.3.0",
     "eslint": "^7.7.0",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.0",
