@@ -1,0 +1,20 @@
+{
+  "name": "reactful-starter",
+  "version": "1.0.0",
+  "description": "A Starter kit based on https://jscomplete.com/learn/1rd-reactful by Samer Buna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rommik/reactful-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rommik/reactful-starter/issues"
+  },
+  "homepage": "https://github.com/rommik/reactful-starter#readme"
+}
